@@ -115,12 +115,7 @@
         @foreach ($venta as $v)
         <header>
             <div id="logo">
-                <img src="img/logo2.png" alt="CompartiendoCodigo" id="imagen">
-            </div>
-            <div id="datos">
-                <p id="encabezado">
-                    <b>Compartiendo Códigos</b><br>Arequipa, Perú<br>Telefono:(+51)999999999<br>Email: compartiendocodigos@gmail.com
-                </p>
+                <img src="img/logo.png" alt="CompartiendoCodigo" id="imagen">
             </div>
             <div id="fact">
                 <p>{{$v->tipo_comprobante}}<br>
@@ -199,21 +194,21 @@
                             <th></th>
                             <th></th>
                             <th>SUBTOTAL</th>
-                            <td>$ {{round($v->total-($v->total*$v->impuesto),2)}}</td>
+                            <td>S/.{{round($v->total-($v->total*$v->impuesto),2)}}</td>
                         </tr>
                         <tr>
                             <th></th>
                             <th></th>
                             <th></th>
                             <th>Impuesto</th>
-                            <td>$ {{round($v->total*$v->impuesto,2)}}</td>
+                            <td>S/. {{round($v->total*$v->impuesto,2)}}</td>
                         </tr>
                         <tr>
                             <th></th>
                             <th></th>
                             <th></th>
                             <th>TOTAL</th>
-                            <td>$ {{$v->total}}</td>
+                            <td>S/. {{$v->total}}</td>
                         </tr>
                         @endforeach
                     </tfoot>

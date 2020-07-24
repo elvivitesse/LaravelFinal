@@ -99,12 +99,9 @@
             <consultaingreso></consultaingreso>
             </template>
             <template v-if="menu==11">
-                <h1>Ayuda</h1>
+                <h1>Soporte de sistema comunicarse a bruno.ticona@tecsup.edu.pe</h1>
             </template>
 
-            <template v-if="menu==12">
-                <h1>Acerca de</h1>
-            </template>
             @else
 
             @endif

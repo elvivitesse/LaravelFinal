@@ -3,14 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Sistema Ventas Laravel Vue Js- Compartiendocodigos">
-    <meta name="author" content="compartiendocodigos.net">
-    <meta name="keyword" content="Sistema ventas Laravel Vue Js, Sistema compras Laravel Vue Js">
-    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="shortcut icon"  href="img/favicon.png"/>
     <meta name="userId" content="{{ Auth::check() ? Auth::user()->id : ''}}">
-    <title>Sistema Ventas -Compartiendo Códigos</title>
+    <title>Sistema Ultraventas</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js">
     <!-- Icons -->
@@ -31,15 +27,12 @@
             <li class="nav-item px-3">
                 <a class="nav-link" href="#">Escritorio</a>
             </li>
-            <li class="nav-item px-3">
-                <a class="nav-link" href="#">Configuraciones</a>
-            </li>
         </ul>
         <ul class="nav navbar-nav ml-auto">
             <notification :notifications="notifications"></notification>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                    <img src="img/avatars/6.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                    
                     <span class="d-md-down-none">{{Auth::user()->usuario}} </span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right">
@@ -78,8 +71,7 @@
     </div>   
     </div>
     <footer class="app-footer">
-        <span><a href="https://www.compartiendocodigos.net/" target="_blank">CompartiendoCódigos</a> &copy; 2018-2019</span>
-        <span class="ml-auto">Version 0.0.1</span>
+        <span>Soporte de sistema comunicarse a => bruno.ticona@tecsup.edu.pe  O  wilber.chambi@tecsup.edu.pe</span>
     </footer>
     
 

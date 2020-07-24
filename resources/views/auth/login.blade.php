@@ -31,9 +31,8 @@
           <div class="card text-white py-5 d-md-down-none" style="width:44%;background:#4b4b4d;" >
             <div class="card-body text-center">
               <div>
-                <h3>Sistema de Ventas Compartiendo Códigos</h3>
-                <p>Sistema de compras, Ventas desarrollado en PHP utilizando el Framework Laravel y Vue Js, con el gestor de base de datos MariaDB.</p>
-                <a href="https://www.compartiendocodigos.net/" target="_blank" class="btn btn-primary   mt-3" >Más sistemas Aqui!</a>
+                <h3>Sistema de Ventas</h3>
+                <img rel="shortcut icon" src="img/logo.png">
               </div>
             </div>
           </div>
